@@ -26,14 +26,10 @@
 }
 
 .banner-section-bg-container {
-    width: 100%;
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
     height: 100vh;
-    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png');
     background-size: cover;
-    background-position: center;
-
 }
-
 
 .banner-heading {
     color: white;
@@ -51,7 +47,7 @@
 
 .custom-button {
     color: white;
-    background-color: #d0b200;
+    background-image: linear-gradient(#d0b200, #a58d00);
     width: 130px;
     height: 45px;
     border-width: 0;
@@ -203,7 +199,7 @@
 }
 
 .thanking-customers-section {
-    background-color: #d0b2001a;
+    background-image: radial-gradient(#fff8db, #fae38c);
 }
 
 .thanking-customers-section-heading {
@@ -222,6 +218,11 @@
 .thanking-customers-section-img {
     width: 270px;
     margin-bottom: 20px;
+}
+
+.thanking-customers-section-modal-title {
+    color: #d0b200;
+    font-weight: 800;
 }
 
 .follow-us-section {
