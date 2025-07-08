@@ -270,3 +270,32 @@
     font-family: "Roboto";
     font-size: 14px;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.menu-item-image,
+.wcu-card-image,
+.healthy-food-section-img,
+.thanking-customers-section-img,
+.delivery-and-payment-section-img,
+.payment-card-img,
+.food-paradise-logo {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.menu-item-card {
+    overflow: hidden;
+    border-radius: 12px;
+    transition: transform 0.2s ease;
+}
+.menu-item-card:hover {
+    transform: scale(1.02);
+}
+
