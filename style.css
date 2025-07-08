@@ -271,25 +271,3 @@
     font-size: 14px;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-.menu-item-image,
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
-.menu-item-card {
-    overflow: hidden;
-    border-radius: 12px;
-    transition: transform 0.2s ease;
-}
-.menu-item-card:hover {
-    transform: scale(1.02);
-}
-
