@@ -325,11 +325,9 @@
             </div>
         </div>
     </div>
-<!-- Crisp Chatbot Integration for Parady -->
 <script type="text/javascript">
   window.$crisp = [];
   window.CRISP_WEBSITE_ID = "03c4c2c4-3b15-4fb3-8289-328f3de3d9e7";
-
   (function () {
     var d = document;
     var s = d.createElement("script");
@@ -344,19 +342,16 @@
     $crisp.push(["config", "theme:color", "#FF5733"]);
     $crisp.push(["set", "user:nickname", ["Parady"]]);
 
-    if (!localStorage.getItem("crispGreeted")) {
+    if (!sessionStorage.getItem("paradyGreeted")) {
       $crisp.push([
         "do",
         "message:show",
         ["text", "Hi there! 👋 I'm Parady. Need help finding something delicious and want to get help from the support?"]
       ]);
-      localStorage.setItem("crispGreeted", "true");
+      sessionStorage.setItem("paradyGreeted", "true");
     }
-
-    $crisp.push(["do", "chat:hide"]);
   };
 </script>
-
 
 </body>
     
